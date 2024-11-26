@@ -4,10 +4,9 @@
 
 .accordeon {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: flex-start;
     flex: 1;
-    transition: flex 0.3s ease;
     border: 1px solid white;
     border-radius: 8px;   
 }
@@ -19,5 +18,10 @@ details {
     width: auto;
     padding: 10px;
     max-width: 350px;
+    transition: max-width 0.3s ease-in-out;
 }
 
+details[open] {
+    margin-right: 0;
+    width: 300px;
+}
