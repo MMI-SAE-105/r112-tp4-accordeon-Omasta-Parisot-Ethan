@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Omasta-Parisot
+- prénom : Ethan
+- URL Netlify : https://tangerine-medovik-17f9ba.netlify.app/
 
 # Travail
 
